@@ -2,7 +2,7 @@
   <div class="text-center">
     <img
       class="figure-img img-fluid rounded mx-auto d-block"
-      :src="`../src/assets/images/imagen${
+      :src="`https://raw.githubusercontent.com/BrhayanRamosG/juego-el-ahorcado/main/src/assets/images/imagen${
         time.minutos === 0 && time.segundos === 0 ? '13' : intentos
       }.jpg`"
       alt="Dibujo ahorcado"
