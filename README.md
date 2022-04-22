@@ -1,4 +1,6 @@
-# juego-ahorcado
+# Juego el ahorcado
+
+Diviértete jugando a este clásico juego, tienes solo 2 minutos y medio para ganar, ¿Aceptas el reto?.
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -33,3 +35,13 @@ npm run build
 ```sh
 npm run lint
 ```
+
+## Capturas
+
+![Captura 1](./src/assets/images/Screenshot1.png)
+![Captura 2](./src/assets/images/Screenshot2.png)
+![Captura 3](./src/assets/images/Screenshot3.png)
+
+## Demo
+
+[Ir al juego](https://courageous-hummingbird-472cbe.netlify.app/)
