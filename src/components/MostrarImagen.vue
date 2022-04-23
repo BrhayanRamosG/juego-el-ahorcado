@@ -3,7 +3,7 @@
     <img
       class="figure-img img-fluid rounded mx-auto d-block"
       :src="`https://raw.githubusercontent.com/BrhayanRamosG/juego-el-ahorcado/main/src/assets/images/imagen${
-        time.minutos === 0 && time.segundos === 0 ? '13' : intentos
+        partida.perdida ? '13' : intentos
       }.jpg`"
       alt="Dibujo ahorcado"
       width="350"
@@ -16,7 +16,7 @@ defineProps({
     type: Number,
     required: true,
   },
-  time: {
+  partida: {
     type: Object,
     required: true,
   },

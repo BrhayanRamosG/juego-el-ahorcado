@@ -12,7 +12,7 @@
     <MostrarPuntaje :puntaje="infoPartida.puntos" v-if="infoPartida.iniciada" />
     <MostrarImagen
       :intentos="palabraStore.intentos"
-      :time="palabraStore.time"
+      :partida="palabraStore.partida"
       v-if="
         palabraStore.intentos > 0 ||
         (palabraStore.time.minutos === 0 &&
